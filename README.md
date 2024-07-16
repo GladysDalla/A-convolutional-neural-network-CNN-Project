@@ -1,17 +1,17 @@
 # A-convolutional-neural-network-CNN-Project
 
-In this assignment you will do image classification using CNNs.
+In this assignment I builds CNN models for image classification tasks.
 
 Set up:
 
-1. Doanload the Monkeys Species image dataset as mentioned in the slides.
-2. Obtain a pre-trained model of your choice as explained in the slides.
+1. Doanloaded the Monkeys Species image dataset. Link; https://www.kaggle.com/datasets/utkarshsaxenadn/10-species-of-monkey-multiclass-classification
+2. Obtained a pre-trained model of my choice (EfficientNetV2S).
 
 Assignment Tasks:
 
 Task 1: Your own CNN architectures:
 
-Try two different CNN architectures (one can be from the slides if you prefer). You can change the layers, change the number or size of filters, with and without dropout, etc. to get different architectures.
+Try two different CNN architectures. You can change the layers, change the number or size of filters, with and without dropout, etc. to get different architectures.
 Train each model till the training accuracy does not seem to improve over epochs. Test each model on the test data.
 Compare the accuracy of the two models on the test data. Obtain confusion matrix for the model with better accuracy on the test data.
 Save the model which gives better accuracy on test data.
